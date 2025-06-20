@@ -1,3 +1,6 @@
+Absolutely, Abuzer! Here’s the complete `README.md` file content, nicely formatted and ready for you to copy and paste:
+
+````markdown
 # SentinelLite AI Agent
 
 Developed by **Abuzer**
@@ -20,6 +23,31 @@ An AI-based cybersecurity agent designed for IoT devices such as smart cameras a
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/sentinellite-ai-agent.git
+git clone https://github.com/abuzersaj/sentinellite-ai-agent.git
 cd sentinellite-ai-agent
 pip install -r requirements.txt
+````
+
+## Usage
+
+Run the tool with root/admin privileges to allow packet sniffing and firewall rules:
+
+```bash
+sudo python3 sentinellite_gui.py
+```
+
+* Enter the IP address of your IoT device (e.g., smart camera or router).
+* Click **Start Monitoring** to begin.
+* Enable IP blocking if you want automatic firewall blocking of detected threats.
+* Stop monitoring by clicking **Stop Monitoring**.
+
+## Notes
+
+* IP blocking commands are simulated by default; be careful when enabling actual blocking.
+* To fully stop the packet sniffing thread, you may need to restart the application.
+* Logs are saved to `sentinellite_abuzer.log` in the project directory.
+
+```
+
+---
+
