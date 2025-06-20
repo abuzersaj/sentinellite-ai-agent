@@ -1,4 +1,4 @@
-Absolutely, Abuzer! Here’s the complete `README.md` file content, nicely formatted and ready for you to copy and paste:
+Absolutely, Abuzer! Here’s the **complete, ready-to-copy README.md** content for your GitHub repo:
 
 ````markdown
 # SentinelLite AI Agent
@@ -46,8 +46,3 @@ sudo python3 sentinellite_gui.py
 * IP blocking commands are simulated by default; be careful when enabling actual blocking.
 * To fully stop the packet sniffing thread, you may need to restart the application.
 * Logs are saved to `sentinellite_abuzer.log` in the project directory.
-
-```
-
----
-
